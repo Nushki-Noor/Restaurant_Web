@@ -1,0 +1,169 @@
+body {
+    background: url('../../Pictures/bk1.jpg') no-repeat center center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #473c00;
+    padding: 20px;
+    box-shadow: 1px 10px 30px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 200px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:last-child {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.dropdown-item {
+    display: block;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.category-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-buttons button {
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #5a4d0000;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.category-buttons button:hover {
+    background-color: #383000;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.category-buttons button:active {
+    background-color: #5a4c00;
+    color: #ffffff;
+    transform: translateY(0);
+}
+
+.category-buttons button.active {
+    background-color: #5a4c00;
+    color: #ffffff;
+}
+
+.orders {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffffb5;
+    box-shadow: 5px 5px 15px  rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.card .details {
+    padding: 10px;
+}
+
+.order-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-items li {
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+.update-button {
+    background-color: #ae9400;
+    color: white;
+    font-size: 13px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.update-button:hover {
+    background-color: #5a4c00;
+}

@@ -1,0 +1,49 @@
+body {
+    background: url('../../Pictures/bk1.jpg') no-repeat center center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    margin-left: 180px;
+    padding: 20px;
+    width: calc(100% - 220px);
+}
+
+.statistics {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.stat-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    height: 140px;
+    width: 300px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #7d6a00;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #504400;
+}

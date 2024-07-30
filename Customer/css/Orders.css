@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../../Pictures/bk2.jpg') no-repeat center center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    /*background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #a48c05;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.orders {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffffa3;
+}
+
+.details {
+    margin-bottom: 10px;
+}
+
+.o-details {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.order-items {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.order-items li {
+    margin-bottom: 6px;
+}
+
+.dispatch-button {
+    background-color: #241f1f;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.recieved-status {
+    color: red;
+}
+
+
+p{
+    text-align: center;
+}
+
+
+
+.cancelbtn {
+    margin-top: 10px;
+    padding: 0.5rem 1.5rem;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-left: 85px;
+}
+
+.cancelbtn:hover {
+    background-color: #a80000;
+}

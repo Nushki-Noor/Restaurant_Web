@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../../Pictures/bk2.jpg') no-repeat center center;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffffc0; 
+    box-shadow: 5px 5px 25px  rgba(0, 0, 0, 0.5);
+}
+
+.cart-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #483e00;
+}
+
+.cart-item {
+    height: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    /*background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;*/
+}
+
+.cart-item .item-image {
+    text-align: center;
+    flex: 1; 
+}
+
+.cart-item .item-image img {
+    display: block;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.cart-item .item-details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.cart-item .item-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cart-item .item-details p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.cart-item .item-actions {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    justify-content: space-between;
+}
+
+.cart-item .item-actions .quantity {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cart-item .item-actions .quantity button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.cart-item .item-actions .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.update-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.update-form input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.update-form button.update-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.update-form button.update-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    padding: 0; 
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.delete-button img {
+    width: 28px; 
+    height: 28px; 
+}
+
+.delete-button:focus {
+    outline: none;
+}
+
+.deleteall-btn{
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    background-color: #e20000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.deleteall-btn:hover{
+    background-color: #ba0303;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.checkout-btn{
+    font-size: 18px;
+    width: 130px;
+    height: 30px;
+    background-color: #00cf3b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-btn:hover{
+    background-color: #01be36;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+
+.total{
+    margin-bottom: 20px;
+}
